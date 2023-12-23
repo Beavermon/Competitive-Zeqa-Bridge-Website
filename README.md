@@ -11,12 +11,12 @@
   <p align="center">
     The official website for the <a href="https://discord.gg/Y5ma4XUuzH">Zeqa Bridge Discord server</a>.
     <br />
-    <a href="[[https://github.com/bridge-scrims/website-new](https://beavermon.github.io/Competitive-Zeqa-Bridge-Website/)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://beavermon.github.io/Competitive-Zeqa-Bridge-Website/))"><strong>Heres the website »<a href="LINK HERE">  Click Me!</a></strong></a>
+    <a href="[[https://github.com/bridge-scrims/website-new](https://beavermon.github.io/Competitive-Zeqa-Bridge-Website/)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://beavermon.github.io/Competitive-Zeqa-Bridge-Website/))"><strong>Heres the website »<a href="https://beavermon.github.io/Competitive-Zeqa-Bridge-Website/index.html">  Click Me!</a></strong></a>
     <br />
     <br />
-    <a href="LINK HERE">Report Bugs</a>
+    <a href="https://github.com/Beavermon/Competitive-Zeqa-Bridge-Website/issues">Report Bugs</a>
     ·
-    <a href="LINK HERE">Contribute</a>
+    <a href="https://github.com/Beavermon/Competitive-Zeqa-Bridge-Website/pulls">Contribute</a>
   </p>
 </div>
 
