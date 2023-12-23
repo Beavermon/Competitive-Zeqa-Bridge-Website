@@ -1,92 +1,54 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
     <head>
-        <title>FAQ</title>
-        <link rel="stylesheet" href="slideshow.css">
-        <link rel="stylesheet" href="navbar.css">
-       
+        <title>Competitive Zeqa Bridge</title>
+        <html class="h-100" lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <title>Beavermons Site</title>
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/index.css" rel="stylesheet">
+            <link href="css/globals.css" rel="stylesheet">
+            <script src="js/bootstrap.bundle.min.js"></script>
+        
+            <meta name="description" content="Site made by Beavermon!">
+            <meta property="og:title" content="Inspiration from Candycup">
+            <meta property="og:type" content="website">
+            <meta property="og:image" content="https://github.com/Beavermon/Competitive-Zeqa-Bridge-Website/blob/main/images/bk.jpeg">
+            <meta property="og:site_name" content="beavermons Site">
+        
+            <meta name="twitter:title" content="Site made by beavermon!" />
+            <meta name="twitter:summary" content="Inspiration from Candycup" />
+            <meta name="twitter:image" content="https://github.com/Beavermon/Competitive-Zeqa-Bridge-Website/blob/main/images/bk.jpeg" />
+            <meta name="twitter:site" content="@beavermonE" />
+                
+    <meta name="google-site-verification" content="hZzEv09lxe3_oo9rVuhCXoCKAL3MgBnpapvd3WGVCGw" />
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z71CBY09NP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    </head>
-    <body>
-         <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="images/Lunary.png" style="width:100%">
-            <div class="text">Caption Text</div>
-            </div>
-        
-            <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="images/manor.png" style="width:100%">
-            <div class="text">Caption Two</div>
-            </div>
-        
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="images/ender.png" style="width:100%">
-            <div class="text">Caption Three</div>
-            </div>
-        
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    gtag('config', 'G-Z71CBY09NP');
+</script>
+<body class="d-flex h-100 text-center text-bg-dark">
+<div id="image"></div>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">Competitve Zeqa Bridge</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a aria-current="page" class="nav-link fw-bold py-1 px-0 active" href="index.html">Home</a>
+                <a aria-current="page" class="nav-link fw-bold py-1 px-0 active" href="faq.html">FAQ</a>
+                <a aria-current="page" class="nav-link fw-bold py-1 px-0 active" href="ranking.html">Rankings</a> 
+                <a aria-current="page" class="nav-link fw-bold py-1 px-0 active" href="guides.html">Guides</a>
+                <a aria-current="page" class="nav-link fw-bold py-1 px-0 active" href="about.html">About</a>
+             
+            </nav>
         </div>
-        <br>
-        
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div> 
-        
-
-        <!-- Navbar-->
-        <div class ="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="guides.html">Guides</a></li>
-                <li><a href="ranking.html">Ranking</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </div>
-
-        <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-
-            // Next/previous controls
-            function plusSlides(n) {
-            showSlides(slideIndex += n);
-            }
-
-            // Thumbnail image controls
-            function currentSlide(n) {
-            showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            } 
-        </script>
-  
-        <!doctype html>
+    <!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -98,8 +60,8 @@
 <body>
 <header class="cd-header flex flex-column flex-center">
   <div class="text-component text-center">
-    <h1>Frequently Asked Questions</h1>
-    <p><a class="cd-article-link" href="https://dsc.gg/zeqabridge">Join our Discord!</a></p>
+    <h1>FAQ Template</h1>
+    <p>👈 <a class="cd-article-link" href="https://codyhouse.co/gem/css-faq-template">Article &amp; Download</a></p>
   </div>
 </header>
 
@@ -117,10 +79,10 @@
 		<ul id="basics" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Basics</h2></li>
 			<li class="cd-faq__item">
-				<a class="cd-faq__trigger" href="#0"><span>How do I Join?</span></a>
+				<a class="cd-faq__trigger" href="#0"><span>How do I change my password?</span></a>
 				<div class="cd-faq__content">
           <div class="text-component">
-            <p>ihil sed consequatur atque repellendus fugit perspiciatis rerum et. Dolorum consequuntur fugit deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste delectus obcaecati debitis omnis, assumenda accusamus cumque perferendis eos aut quidem! Aut, totam rerum, cupiditate quae aperiam voluptas rem inventore quas, ex maxime culpa nam soluta labore at amet nihil laborum? Explicabo numquam, sit fugit, voluptatem autem atque quis quam voluptate fugiat earum rem hic, reprehenderit quaerat tempore at. Aperiam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quidem blanditiis delectus corporis, possimus officia sint sequi ex tenetur id impedit est pariatur iure animi non a ratione reiciendis nihil sed consequatur atque repellendus fugit perspiciatis rerum et. Dolorum consequuntur fugit deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste delectus obcaecati debitis omnis, assumenda accusamus cumque perferendis eos aut quidem! Aut, totam rerum, cupiditate quae aperiam voluptas rem inventore quas, ex maxime culpa nam soluta labore at amet nihil laborum? Explicabo numquam, sit fugit, voluptatem autem atque quis quam voluptate fugiat earum rem hic, reprehenderit quaerat tempore at. Aperiam.</p>
           </div>
 				</div> <!-- cd-faq__content -->
 			</li>
@@ -384,6 +346,6 @@
 <script src="assets/js/main.js"></script> 
 </body>
 </html>
-    </body>
-    
+</div>
+</body>
 </html>
