@@ -53,7 +53,7 @@ Distributed under a MIT License.
 
 ## Acknowledgments 
 
-beavermon [@discord](https://discord.com)
-jaxfry [@discord](https://discord.com)
+[@beavermon](https://github.com/Beavermon)
+[@jaxfry](https://github.com/jaxfry)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
