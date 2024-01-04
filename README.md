@@ -50,7 +50,7 @@ Distributed under a MIT License.
 
 [Discord Server](https://discord.gg/Y5ma4XUuzH)
 
-<!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments 
 
 beavermon [@discord](https://discord.com)
