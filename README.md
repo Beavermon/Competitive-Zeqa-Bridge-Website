@@ -50,13 +50,11 @@ Distributed under a MIT License.
 
 [Discord Server](https://discord.gg/Y5ma4XUuzH)
 
-beavermon [@discord](https://discord.com)
-
 <!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments -->
+## Acknowledgments 
 
-<!-- * []() -->
-<!-- * []() -->
-<!-- * []() -->
+beavermon [@discord](https://discord.com)
+jaxfry [@discord](https://discord.com)
+radio [@discord]([https://discord.com](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
 
 <p align="right"><a href="#readme-top">back to top</a></p>
