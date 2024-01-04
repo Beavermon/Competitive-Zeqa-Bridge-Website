@@ -54,9 +54,6 @@ Distributed under a MIT License.
 ## Acknowledgments 
 
 beavermon [@discord](https://discord.com)
-
 jaxfry [@discord](https://discord.com)
-
-radio [@discord]([https://discord.com](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
 
 <p align="right"><a href="#readme-top">back to top</a></p>
