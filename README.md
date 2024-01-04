@@ -20,8 +20,8 @@
   </p>
 </div>
 
-### Built With
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)  
+### Built With CSS and Javescript
+
 ## Supported Browsers
 
 Any evergreen browser > IE11 (why is Internet Explorer still a thing??)
