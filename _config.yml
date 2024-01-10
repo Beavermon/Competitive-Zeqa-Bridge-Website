@@ -1,7 +1,7 @@
 # Site settings
-title: My Jekyll Site
-description: A simple example site built with Jekyll
-baseurl: "/Competitive-Zeqa-Bridge-Website/news" # the subpath of your site, e.g., /blog/
+title: Zeqa Bridge
+description: Made by Jaxfry
+baseurl: "/Competitive-Zeqa-Bridge-Website" # the subpath of your site, e.g., /blog/
 url: "https://beavermon.github.io" # the base hostname & protocol for your site
 
 # Build settings
@@ -12,3 +12,5 @@ plugins:
 
 # Permalinks
 permalink: pretty
+
+future: true

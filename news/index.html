@@ -1,3 +1,8 @@
+---
+layout: null
+title: News
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,14 +46,18 @@
     </li>
   </ul>
 
-  <!-- FAQ Section -->
+  <!-- News Section -->
   <div class="main">
     {% for post in site.posts %}
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.content | markdownify }}</p>
-      <p>Date: {{ post.date | date: "%Y-%m-%d" }}</p>
+      <div class="post">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content | markdownify }}</p>
+        <p>Date: {{ post.date | date: "%Y-%m-%d" }}</p>
+      </div>
+      <hr>
     {% endfor %}
   </div>
+
 
 
 </body>
