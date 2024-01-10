@@ -1,27 +1,14 @@
-name: Zeqa
+# Site settings
+title: My Jekyll Site
+description: A simple example site built with Jekyll
+baseurl: "/Competitive-Zeqa-Bridge-Website/news" # the subpath of your site, e.g., /blog/
+url: "https://beavermon.github.io" # the base hostname & protocol for your site
 
-on:
-  push:
-    branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-jobs:
-  deploy:
-    runs-on: ubuntu-22.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main,
-        # also change the `main` in `refs/heads/main`
-        # below accordingly.
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+# Permalinks
+permalink: pretty
