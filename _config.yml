@@ -1,0 +1,17 @@
+title: Zeqa
+theme: jekyll-theme-minimal # Replace with your preferred theme
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+permalink: pretty

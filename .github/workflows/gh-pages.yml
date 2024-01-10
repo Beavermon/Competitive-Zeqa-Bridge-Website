@@ -1,33 +1,40 @@
-name: Build and Deploy
+name: GitHub Pages
 
 on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3' # Not needed with a .ruby-version file
 
-    - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle install
+      - name: Install Bundler
+        run: gem install bundler
 
-    - name: Build Jekyll site
-      run: bundle exec jekyll build
+      - name: Install Dependencies
+        run: bundle install
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3.9.3
-      with:
-        publish_dir: ./_site
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
