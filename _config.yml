@@ -1,17 +1,27 @@
-title: Zeqa
-theme: jekyll-theme-minimal # Replace with your preferred theme
+name: Zeqa
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+on:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+  pull_request:
 
-markdown: kramdown
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-
-permalink: pretty
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v3
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # If you're changing the branch from main,
+        # also change the `main` in `refs/heads/main`
+        # below accordingly.
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
