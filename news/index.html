@@ -38,6 +38,22 @@ title: News
         channel: '1124172697828593674' // #「🔔」𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞𝐦𝐞𝐧𝐭𝐬
     })
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      $('#myCarousel').carousel();
+
+      document.querySelector('.carousel-control-prev').addEventListener('click', function() {
+          $('#myCarousel').carousel('prev');
+      });
+
+      document.querySelector('.carousel-control-next').addEventListener('click', function() {
+          $('#myCarousel').carousel('next');
+      });
+      setInterval(function() {
+          $('#myCarousel').carousel('next');
+      }, 10000);
+  });
+</script>
 
 </body>
 </html>
