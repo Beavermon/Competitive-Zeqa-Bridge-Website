@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2"
-gem "github-pages", group: :jekyll_plugins
+gemspec
 
-# Specify a more permissive version of kramdown
-gem "kramdown", "~> 2.3"
+gem "jekyll-octicons"
+
+group :test do
+  gem "rubocop", "~> 1.37"
+  gem "rubocop-performance"
+  gem "webmock"
+end
