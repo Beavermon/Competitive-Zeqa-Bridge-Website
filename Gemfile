@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gemspec
-
 gem "jekyll-octicons"
 
 group :test do
