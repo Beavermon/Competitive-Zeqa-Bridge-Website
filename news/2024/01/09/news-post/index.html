@@ -4,17 +4,17 @@
     <header>
     <!-- Image Section -->
     <div class="header-image">
-        <img src="/Competitive-Zeqa-Bridge-Website/asset/images/slide4.png" class="img-main" alt="Responsive Image">
+        <img src="/Competitive-Zeqa-Bridge-Website/asset/images/slide4.png" class="img-main unselectable" alt="Responsive Image">
         <!-- Logo Container -->
         <div class="logo-container">
-            <img src="/Competitive-Zeqa-Bridge-Website/asset/images/logo.png" alt="Logo" class="logo">
+            <img src="/Competitive-Zeqa-Bridge-Website/asset/images/logo.png" alt="Logo" class="logo unselectable">
         </div>
     </div>
     
     <!-- Navigation Bar -->
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" href="/Competitive-Zeqa-Bridge-Website/">About</a>
+            <a class="nav-link" href="/Competitive-Zeqa-Bridge-Website/">About</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/Competitive-Zeqa-Bridge-Website/news/">News</a>
@@ -29,6 +29,17 @@
             <a class="nav-link" href="https://dsc.gg/zeqabridge">Join <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </li>
     </ul>
+    <script>
+    let currentUrl = window.location.href;
+
+    let navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach((link) => {
+        if (link.href === currentUrl) {
+            link.classList.add('active');
+        }
+    });
+    </script>
 </header>
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 

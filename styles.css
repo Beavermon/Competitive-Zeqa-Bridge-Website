@@ -64,6 +64,14 @@ img {
     position: relative;
     user-select: none;
 }
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #cc0000;
+}
 
 .nav-link:hover {
     color: #007bff;
