@@ -20,7 +20,7 @@
   </p>
 </div>
 
-### Built With CSS and Javescript
+### Built With CSS and Javascript
 
 ## Supported Browsers
 
