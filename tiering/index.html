@@ -16,3 +16,23 @@
 <body>
   
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJ5XspIw5nkKTZM3tPy6yWDlkLcvw_q_VsO43AHqPrh94oOkX9HjxGc_s5mJwj8ZSGsV3zEGcNS_4t/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+      $('#myCarousel').carousel();
+
+      document.querySelector('.carousel-control-prev').addEventListener('click', function() {
+          $('#myCarousel').carousel('prev');
+      });
+
+      document.querySelector('.carousel-control-next').addEventListener('click', function() {
+          $('#myCarousel').carousel('next');
+      });
+      setInterval(function() {
+          $('#myCarousel').carousel('next');
+      }, 10000);
+  });
+</script>
+
+</body>
+</html>
