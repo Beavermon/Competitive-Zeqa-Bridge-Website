@@ -41,14 +41,27 @@
     </li>
   </ul>
 
-  <!-- FAQ Section -->
+  <!-- News Section -->
   <div class="main">
-    {% for post in site.posts %}
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.content | markdownify }}</p>
-      <p>Date: {{ post.date | date: "%Y-%m-%d" }}</p>
-    {% endfor %}
+    
+      <div class="post">
+        <h2>Exciting News 2!</h2>
+        <p><p>Your news content goes here again!</p>
+</p>
+        <p>Date: 2024-01-09</p>
+      </div>
+      <hr>
+    
+      <div class="post">
+        <h2>Exciting News!</h2>
+        <p><p>Your news content goes here.</p>
+</p>
+        <p>Date: 2024-01-08</p>
+      </div>
+      <hr>
+    
   </div>
+
 
 
 </body>
