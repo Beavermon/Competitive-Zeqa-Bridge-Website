@@ -1,8 +1,8 @@
 # Site settings
 title: Zeqa Bridge
 description: Made by Jaxfry
-baseurl: "/Competitive-Zeqa-Bridge-Website" # the subpath of your site, e.g., /blog/
-url: "https://beavermon.github.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g., /blog/
+url: "http://zeqabridge.xyz" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
