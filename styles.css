@@ -112,10 +112,7 @@ img {
 
 /*snowflakes*/
 
-.snowflakes {
-	width: 100%; height: 1200px;
-	position: absolute; top: -90px; left: 0;
-}
+
 
 i, i:after, i:before { background: white; }
 i {
